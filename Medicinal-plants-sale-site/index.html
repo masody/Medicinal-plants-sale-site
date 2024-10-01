@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+      integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Medicinal plants sale site</title>
+    <link rel="shortcut icon" href="photo/logo.png" type="image/x-icon" />
+    <link rel="stylesheet" href="./cssFile/style.css" />
+    <link rel="stylesheet" href="./cssFile/media.css" />
+    <script type="module" src="main.js" defer></script>
+    <script
+      src="https://kit.fontawesome.com/6a9b339264.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body>
+    <div class="hepol">
+      <!-- +-->
+    </div>
+
+    <div class="close-login-btn"></div>
+    <header class="head-container-site">
+      <nav class="navbar-head-site">
+        <div class="menu-container">
+          <button class="show-menu-btn">
+            <span class="menu-icon-container">
+              <i class="fa-solid fa-bars"></i>
+            </span>
+          </button>
+
+          <div class="menu-content">
+            <button class="remove-menu-btn">
+              <i class="fa fa-window-close" aria-hidden="true"></i>
+            </button>
+
+            <ul class="menu-ul-list">
+              <li>
+                <a href="#" target="_blank" rel="noopener noreferrer"> home</a>
+              </li>
+              <li>
+                <a href="#" target="_blank" rel="noopener noreferrer">
+                  article</a
+                >
+              </li>
+              <li>
+                <a href="#" target="_blank" rel="noopener noreferrer">
+                  products
+                </a>
+              </li>
+            </ul>
+            <div class="register-container">
+              <button class="login-btn">log in</button>
+              <button class="signup-btn">sign up</button>
+            </div>
+          </div>
+        </div>
+        <div class="logo-image-continer">
+          <img src="./photo/logo.png" alt="logo image" class="logo-image" />
+        </div>
+        <div class="cart-shopping-container">
+          <button class="show-cart-shopping-page">
+            <span class="cart-shopping-icon-container">
+              <i class="fa-solid fa-cart-shopping"></i>
+              <span class="cart-shopping-count" id="cart-count">0</span>
+            </span>
+          </button>
+        </div>
+      </nav>
+
+      <div class="cart-shopping-page">
+        <button class="close-shopping-page">
+          <i class="fa fa-window-close" aria-hidden="true"></i>
+        </button>
+        <h3>your cart</h3>
+
+        <div class="selected-products-container">
+          <!-- <div class="selected-product">
+                   <img src="./photo/Rosemary.jpg" alt="rosmary-image">
+                   <div class="product-information">
+                      <h4 class="heading-product-name">Product Name</h4>
+                      <span class="price-product">15$</span>
+                    </div>
+                    <div class="number-of-product-container">
+                      <span class="decraese-number-of-product">-</span>
+                      <span class="number-of-product">1</span>
+                      <span class="increase-number-of-product">+</span>
+                    </div>
+                    <button class="remove-product">
+                        <i class="fa-solid fa-trash-can"></i>
+                    </button>
+                </div> -->
+
+          <!-- <div class="selected-product">
+                    <img src="./photo/Rosemary.jpg" alt="rosmary-image">
+                    <div class="product-information">
+                        <h4 class="heading-product-name">Product Name</h4>
+                        <span class="price-product">15$</span>
+                    </div>
+                    <div class="number-of-product-container">
+                       <span class="decraese-number-of-product">-</span>
+                       <span class="number-of-product">1</span>
+                       <span class="increase-number-of-product">+</span>
+                    </div>
+                    <button class="remove-product">
+                        <i class="fa-solid fa-trash-can"></i>
+                    </button>
+                </div> -->
+        </div>
+
+        <div class="total-container">
+          <h3 data-id="total-price">total price : 0.00 $</h3>
+          <button class="checkout-btn">checkout</button>
+        </div>
+      </div>
+    </header>
+
+    <main class="main-container-site">
+      <form>
+        <div class="search-input-container">
+          <input type="search" id="search-item" placeholder="search..." />
+          <span>
+            <i class="fa fa-search" aria-hidden="true"></i>
+          </span>
+        </div>
+      </form>
+
+      <div class="Products">
+        <!-- <div class="product">
+                <div class="product-image">
+                    <img src="./photo/medical-plant.jpg" alt="" class="red-flower">
+                </div>
+                <h4 class="heading-text">Product Name</h4>
+                <p class="product-description">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, deleniti.
+                </p>
+                <span class="price-product">15$</span>
+                <button class="add-cart" data-id="1">add to cart</button>
+            </div> -->
+        <!-- <div class="product">
+                <div class="product-image">
+                    <img src="./photo/black-seed.jpg" alt="" class="black-seed">
+                </div>
+                <h4 class="heading-text">Product Name</h4>
+                <p class="product-description">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, deleniti.
+                </p>
+                <span class="price-product">15$</span>
+                <button class="add-cart" data-id="2">add to cart</button>
+            </div> -->
+        <!-- <div class="product">
+                <div class="product-image">
+                    <img src="./photo/ginger.jpg" alt="" class="ginger-image">
+                </div>
+                <h4 class="heading-text">Product Name</h4>
+                <p class="product-description">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, deleniti.
+                </p>
+                <span class="price-product">15$</span>
+                <button class="add-cart" data-id="3">add to cart</button>
+            </div> -->
+        <!-- <div class="product">
+                <div class="product-image">
+                    <img src="./photo/Phenomenal-Lavender.jpg" alt="" class="lavender">
+                </div>
+                <h4 class="heading-text">Product Name</h4>
+                <p class="product-description">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, deleniti.
+                </p>
+                <span class="price-product">15$</span>
+                <button class="add-cart" data-id="4"">add to cart</button>
+            </div> -->
+        <!-- <div class="product">
+                <div class="product-image">
+                    <img src="./photo/Rosemary.jpg" alt="" class="rosmary-image">
+                </div>
+                <h4 class="heading-text">Product Name</h4>
+                <p class="product-description">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, deleniti.
+                </p>
+                <span class="price-product">15$</span>
+                <button class="add-cart" data-id="5">add to cart</button>
+            </div> -->
+        <!-- <div class="product">
+                <div class="product-image">
+                    <img src="./photo/saffron.jpg" alt="" class="saffron-image">
+                </div>
+                <h4 class="heading-text">Product Name</h4>
+                <p class="product-description">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, deleniti.
+                </p>
+                <span class="price-product">15$</span>
+                <button class="add-cart" data-id="6">add to cart</button>
+            </div> -->
+      </div>
+
+      <article class="article-container">
+        <div class="article-text first-article">
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet,
+            itaque.
+          </p>
+          <a class="read-more">read more</a>
+        </div>
+        <div class="article-text seconde-article">
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet,
+            itaque.
+          </p>
+          <a class="read-more">read more</a>
+        </div>
+        <div class="article-text third-article">
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet,
+            itaque.
+          </p>
+          <a class="read-more">read more</a>
+        </div>
+        <div class="article-text fourth-article">
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet,
+            itaque.
+          </p>
+          <a class="read-more">read more</a>
+        </div>
+        <div class="article-text fifth-article">
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet,
+            itaque.
+          </p>
+          <a class="read-more">read more</a>
+        </div>
+      </article>
+    </main>
+
+    <footer class="footer-container-site">
+      <div class="enamad-container">
+        <img src="./photo/e-namad.jpg" alt="e-namad" class="e-namad-image" />
+      </div>
+      <div class="sodial-media-container">
+        <a href="https://inestagram.com" target="_blank">
+          <span class="icon-container-sodial-media">
+            <i class="fa fa-instagram" aria-hidden="true"> </i>
+          </span>
+        </a>
+        <a href="http://t.me" target="_blank" rel="noopener noreferrer">
+          <span class="icon-container-sodial-media">
+            <i class="fa-brands fa-telegram" style="color: #74c0fc"></i>
+          </span>
+        </a>
+        <a href="http://wa.me" target="_blank" rel="noopener noreferrer">
+          <span>
+            <i class="fa fa-whatsapp" aria-hidden="true"></i>
+          </span>
+        </a>
+      </div>
+      <ul>
+        <li class="quick-access"><a href="#">Terms and Conditions</a></li>
+        <li class="quick-access"><a href="#"> about us</a></li>
+        <li class="quick-access"><a href="#">Privacy</a></li>
+      </ul>
+    </footer>
+  </body>
+</html>

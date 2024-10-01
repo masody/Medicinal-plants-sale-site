@@ -1,0 +1,17 @@
+@font-face {
+    font-family:"Roboto", sans-serif ;
+    src: url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+}
+
+ @font-face {
+    font-family: "Open Sans", sans-serif;
+    src: url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:wght@400;500&display=swap');
+  } 
+
+  @font-face {
+    font-family: "Vazir-FD" ;
+    src: url('Vazir-FD.ttf');
+    src:url('Vazir-FD.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }

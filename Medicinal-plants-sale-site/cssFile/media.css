@@ -1,0 +1,122 @@
+@media (min-width:600px) {
+    .product {
+        width: 210px;
+    }
+
+    .Products {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(210px, 260px));
+        justify-items: center;
+    }
+}
+
+
+@media (min-width:768px) {
+    .Products {
+        display: grid;
+        grid-template-columns: repeat(3, minmax(210px, 270px));
+        justify-items: center;
+    }
+
+    .article-container {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(270px, 420px));
+        justify-items: center;
+    }
+
+    .product:hover {
+        box-shadow: 8px 8px 15px black;
+        transition: all .25s ease-in;
+    }
+
+    .add-cart:hover {
+        box-shadow: 4px 4px 12px black;
+        transition: all .25s ease-in;
+    }
+
+    .signup-btn:hover,
+    .login-btn:hover,
+    .menu-ul-list>li a:hover,
+    .read-more:hover {
+        color: #009f42;
+        transition: all .25s ease-in;
+    }
+
+    ul > .quick-access:hover {
+        background-color: #2f9459;
+        transition: all .25s ease-in;
+    }
+
+    .search-input-container input:hover{
+        box-shadow: 8px 8px 20px var(--clr-neutral-a40);
+        transition: all .25s ease-in;
+    }
+    .checkout-btn:hover{
+        box-shadow: 6px 6px 15px rgba(0, 0, 0, 0.5);
+    }
+}
+
+
+@media(min-width:1025px) {
+    .article-container {
+        display: grid;
+        grid-template-columns: repeat(3, 300px);
+        justify-content: center;
+    }
+
+    .show-menu-btn,
+    .remove-menu-btn {
+        display: none;
+    }
+
+    .menu-content {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+        background-color: transparent;
+        min-height: fit-content;
+        height: 116px;
+        border: none;
+    }
+
+    .menu-content>ul {
+        display: flex;
+        flex-direction: row;
+        font-size: 1.2rem;
+        justify-content: flex-start;
+        min-height: fit-content;
+        min-width: fit-content;
+    }
+
+    ul>li {
+        margin: .5rem;
+    }
+
+    .register-container {
+        margin-top: 0;
+        width: 210px;
+        height: 39px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .register-container .login-btn,
+    .register-container .signup-btn {
+        background-color: transparent;
+        font-size: 1.2rem;
+        width: 100px;
+    }
+
+    .footer-container-site {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .sodial-media-container {
+        width: 250px;
+    }
+}
